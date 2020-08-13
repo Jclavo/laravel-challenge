@@ -1,79 +1,92 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Web, PHP, Laravel Skills
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## TL;DR: The Laravel Challenge App Development
 
-## About Laravel
+0. The Challenge app requirements will be sent by email. Here are intruction to get started.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Fork the [laravel-challenge][laravel-challenge] repository on GitHub
+2. Run `composer install`
+3. Run `npm install` (or `yarn install`)
+3. Perform the configuration for a [fresh install of Laravel](https://laravel.com/docs/5.4/#installation)
+1. Run `php artisan serve`
+4. Browse to [http://localhost:8000](http://localhost:8000)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Introduction
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This is a [php][PHP] project is a fresh install of the [Laravel][laravel] framework for full stack web developer candidates. At this point, the Challenge app doesn't do much and it is up to you to change that.
 
-## Learning Laravel
+## Getting Started
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+To get you started you can simply [fork][fork] the [laravel-challenge][laravel-challenge] repository, then clone it locally, and install the dependencies with [composer][composer] and [npm][npm]
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### The tools
 
-## Laravel Sponsors
+You need to have Git installed locally so you can clone your fork of the laravel-challenge repository.
+You can get Git from [http://git-scm.com/][git], or with your preferred package manager.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+You must have [PHP][php] 7.0+ installed, with the PHP executable file available on your PATH.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
+We also use the [Composer][composer] dependency manager for managing dependencies on 3rd-party libraries.
+You can follow the [instructions on the Composer website](https://getcomposer.org/doc/00-intro.md#introduction).
 
-## Contributing
+If you are going to focus on the front aspects we recommendo you to use the [npm](npm) and
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+As far as tools, the app must:
 
-## Code of Conduct
+- Be implemented in the [Laravel Framework][laravel]
+- Use either mysql, mariadb or SQLite for persistent data
+- Show good versioning control practices (*The commits will be evaluated*)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Forking
 
-## Security Vulnerabilities
+Fork the [laravel-challenge][laravel-challenge] repository on GitHub (if you are unfamiliar with forking, [follow these instructions][fork]).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Then clone *your* repository locally using [Git][git]:
 
-## License
+```
+git clone https://github.com/YOUR-USERNAME/laravel-challenge.git
+cd laravel-challenge
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+*Note: Be sure to replace the URL with the correct URL to your forked repository.*
+
+### Install Dependencies
+
+All 3rd-party dependencies are managed with the [Composer][composer]  and [npm][npm] managers.
+If you have installed Composer globally, as recommended, you can simply run:
+
+```
+composer install
+npm install
+```
+
+### Preping the application
+
+As any new [Laravel][lararel] install there is a couple steps to perform in order to get it going. If you are nunfamiliar follow [these instrunctions](https://laravel.com/docs/5.4/#web-server-configuration)
+
+### Run the Application
+
+The simplest way to run the app is through the `artisan server`, which relies on the built-in PHP server.
+To start the web server, run the following command from the project's root directory:
+
+```
+php artisan serve
+```
+
+You can then browse to [http://localhost:8000](http://localhost:8000) in your web browser.
+
+## Challenge Requirements
+
+The Challenge app requirements will be sent by email, for they change accordinly to the opportunity
+
+## Contact
+
+For more information about opportunities check  [here](https://trampos.co/oportunidades?lc=ow)
+
+[composer]: https://getcomposer.org
+[npm]: https://www.npmjs.com/
+[git]: http://git-scm.com/
+[fork]: http://lmgtfy.com/?q=how+to+fork+a+repo+in+github
+[php]: http://php.net
+[laravel-challenge]: https://github.com/owinteractive/laravel-challenge
+[Laravel]: http://www.laravel.com/docs/5.4
